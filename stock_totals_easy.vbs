@@ -31,7 +31,7 @@ Sub stock_totals_easy()
             tick_total = 0
 
         Else
-
+        'continue totals/sum
             tick_total = tick_total + Cells(x, 7).Value
 
         End If
